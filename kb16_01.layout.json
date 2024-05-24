@@ -4,6 +4,50 @@
   "macros": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""],
   "layers": [
     [
+      "KC_PSLS",
+      "KC_PAST",
+      "KC_PMNS",
+      "KC_PPLS",
+      "KC_CALC",
+      "KC_P7",
+      "KC_P8",
+      "KC_P9",
+      "KC_P0",
+      "TO(0)",
+      "KC_P4",
+      "KC_P5",
+      "KC_P6",
+      "KC_PDOT",
+      "KC_END",
+      "KC_P1",
+      "KC_P2",
+      "KC_P3",
+      "KC_PENT",
+      "KC_NO"
+    ],
+    [
+      "HYPR(KC_A)",
+      "HYPR(KC_B)",
+      "HYPR(KC_C)",
+      "HYPR(KC_D)",
+      "KC_TRNS",
+      "HYPR(KC_E)",
+      "HYPR(KC_F)",
+      "HYPR(KC_G)",
+      "HYPR(KC_H)",
+      "TO(3)",
+      "HYPR(KC_I)",
+      "HYPR(KC_J)",
+      "HYPR(KC_K)",
+      "HYPR(KC_L)",
+      "KC_TRNS",
+      "HYPR(KC_M)",
+      "HYPR(KC_N)",
+      "HYPR(KC_O)",
+      "HYPR(KC_P)",
+      "KC_NO"
+    ],
+    [
       "MACRO(0)",
       "MACRO(1)",
       "MACRO(2)",
@@ -46,58 +90,14 @@
       "KC_TRNS",
       "G(KC_Q)",
       "KC_NO"
-    ],
-    [
-      "HYPR(KC_A)",
-      "HYPR(KC_B)",
-      "HYPR(KC_C)",
-      "HYPR(KC_D)",
-      "KC_TRNS",
-      "HYPR(KC_E)",
-      "HYPR(KC_F)",
-      "HYPR(KC_G)",
-      "HYPR(KC_H)",
-      "TO(3)",
-      "HYPR(KC_I)",
-      "HYPR(KC_J)",
-      "HYPR(KC_K)",
-      "HYPR(KC_L)",
-      "KC_TRNS",
-      "HYPR(KC_M)",
-      "HYPR(KC_N)",
-      "HYPR(KC_O)",
-      "HYPR(KC_P)",
-      "KC_NO"
-    ],
-    [
-      "KC_PSLS",
-      "KC_PAST",
-      "KC_PMNS",
-      "KC_PPLS",
-      "KC_CALC",
-      "KC_P7",
-      "KC_P8",
-      "KC_P9",
-      "KC_P0",
-      "TO(0)",
-      "KC_P4",
-      "KC_P5",
-      "KC_P6",
-      "KC_PDOT",
-      "KC_END",
-      "KC_P1",
-      "KC_P2",
-      "KC_P3",
-      "KC_PENT",
-      "KC_NO"
     ]
   ],
   "encoders": [
     [
+      ["KC_BSPC", "KC_ESC"],
       ["KC_MRWD", "KC_MFFD"],
       ["KC_TRNS", "KC_TRNS"],
-      ["KC_TRNS", "KC_TRNS"],
-      ["KC_BSPC", "KC_ESC"]
+      ["KC_TRNS", "KC_TRNS"]
     ],
     [
       ["KC_PGUP", "KC_PGDN"],
@@ -106,11 +106,10 @@
       ["KC_TRNS", "KC_TRNS"]
     ],
     [
+      ["KC_LEFT", "KC_RGHT"],
       ["KC_MS_WH_DOWN", "KC_MS_WH_UP"],
       ["KC_TRNS", "KC_TRNS"],
-      ["KC_TRNS", "KC_TRNS"],
-      ["KC_LEFT", "KC_RGHT"]
+      ["KC_TRNS", "KC_TRNS"]
     ]
   ]
 }
-
